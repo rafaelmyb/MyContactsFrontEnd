@@ -9,13 +9,13 @@ import trash from '../../assets/images/icons/trash.svg';
 import {
   Container, InputSearchContainer, Header, ListContainer, Card,
 } from './styles';
-import Loader from '../../components/Loader';
+// import Loader from '../../components/Loader';
 
 export default function Home() {
   return (
     <Container>
       {/* <Modal danger /> */}
-      <Loader />
+      {/* <Loader /> */}
 
       <InputSearchContainer>
         <input type="text" placeholder="Pesquise pelo nome..." />
