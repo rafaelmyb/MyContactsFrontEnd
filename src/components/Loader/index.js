@@ -1,4 +1,5 @@
 import PropTypes from 'prop-types';
+import Spinner from '../Spinner';
 
 import { Overlay } from './styles';
 
@@ -9,7 +10,7 @@ export default function Loader({ isLoading }) {
 
   return (
     <Overlay>
-      <div className="loader" />
+      <Spinner size={90} />
     </Overlay>
   );
 }
